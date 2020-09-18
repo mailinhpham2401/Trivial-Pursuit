@@ -1,4 +1,4 @@
-# Trivial Persuit app
+# Trivial Pursuit app
 
 ### Installation
 
