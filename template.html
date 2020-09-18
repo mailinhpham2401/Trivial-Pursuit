@@ -1,0 +1,203 @@
+<!-- Projektmanagement -->
+<div class="quiz-area" ng-show="inProgress">
+  <div ng-show="!quizOver">
+    <h2 class="question">{{question}}</h2>
+    <ul class="options">
+      <li ng-repeat="option in options">
+        <label>
+          <input type="radio" name="answer" value="{{option}}" />
+          {{option}}
+        </label>
+      </li>
+    </ul>
+    <button ng-click="checkAnswer()" ng-show="answerMode">Submit</button>
+
+    <div ng-show="!answerMode">
+      <button ng-click="nextQuestion()" class="next-question">Weiter</button>
+      <span ng-show="correctAns">Richtig!!!</span>
+      <span ng-show="!correctAns"
+        >Du hast die Frage nicht richtig geantwortet. Die richtige Antwort ist
+        "{{options[answer]}}"</span
+      >
+    </div>
+  </div>
+
+  <div ng-show="quizOver">
+    <h2>Quiz is over</h2>
+    <button ng-click="reset()">Play again</button>
+  </div>
+</div>
+
+<div id="intro" ng-show="!inProgress">
+  <button id="startQuiz" ng-click="start()">Projektmanagement</button>
+</div>
+
+<!-- AV-Technik -->
+<div class="quiz-area" ng-show="inProgress2">
+  <div ng-show="!quizOver2">
+    <h2 class="question">{{question2}}</h2>
+    <ul class="options">
+      <li ng-repeat="option2 in options2">
+        <label>
+          <input type="radio" name="answer2" value="{{option2}}" />
+          {{option2}}
+        </label>
+      </li>
+    </ul>
+    <button ng-click="checkAnswer2()" ng-show="answerMode2">Submit</button>
+
+    <div ng-show="!answerMode2">
+      <button ng-click="nextQuestion2()" class="next-question">Weiter</button>
+      <span ng-show="correctAns2">Richtig!!!</span>
+      <span ng-show="!correctAns2"
+        >Du hast die Frage nicht richtig geantwortet. Die richtige Antwort ist
+        "{{options2[answer2]}}"</span
+      >
+    </div>
+  </div>
+
+  <div ng-show="quizOver2">
+    <h2>Quiz is over</h2>
+    <button ng-click="reset2()">Play again</button>
+  </div>
+</div>
+
+<div id="intro" ng-show="!inProgress2">
+  <button id="startQuiz" ng-click="start2()">AV-Technik</button>
+</div>
+
+<!--Informatik-->
+<div class="quiz-area" ng-show="inProgress3">
+  <div ng-show="!quizOver3">
+    <h2 class="question">{{question3}}</h2>
+    <ul class="options">
+      <li ng-repeat="option3 in options3">
+        <label>
+          <input type="radio" name="answer3" value="{{option3}}" />
+          {{option3}}
+        </label>
+      </li>
+    </ul>
+    <button ng-click="checkAnswer3()" ng-show="answerMode3">Submit</button>
+
+    <div ng-show="!answerMode3">
+      <button ng-click="nextQuestion3()" class="next-question">Weiter</button>
+      <span ng-show="correctAns3">Richtig!!!</span>
+      <span ng-show="!correctAns3"
+        >Du hast die Frage nicht richtig geantwortet. Die richtige Antwort ist
+        "{{options3[answer3]}}"</span
+      >
+    </div>
+  </div>
+
+  <div ng-show="quizOver3">
+    <h2>Quiz is over</h2>
+    <button ng-click="reset3()">Play again</button>
+  </div>
+</div>
+
+<div id="intro" ng-show="!inProgress3">
+  <button id="startQuiz" ng-click="start3()">Informatik</button>
+</div>
+
+<!--Medienrecht-->
+<div class="quiz-area" ng-show="inProgress4">
+  <div ng-show="!quizOver4">
+    <h2 class="question">{{question4}}</h2>
+    <ul class="options">
+      <li ng-repeat="option4 in options4">
+        <label>
+          <input type="radio" name="answer4" value="{{option4}}" />
+          {{option4}}
+        </label>
+      </li>
+    </ul>
+    <button ng-click="checkAnswer4()" ng-show="answerMode4">Submit</button>
+
+    <div ng-show="!answerMode4">
+      <button ng-click="nextQuestion4()" class="next-question">Weiter</button>
+      <span ng-show="correctAns4">Richtig!!!</span>
+      <span ng-show="!correctAns4"
+        >Du hast die Frage nicht richtig geantwortet. Die richtige Antwort ist
+        "{{options4[answer4]}}"</span
+      >
+    </div>
+  </div>
+
+  <div ng-show="quizOver4">
+    <h2>Quiz is over</h2>
+    <button ng-click="reset4()">Play again</button>
+  </div>
+</div>
+
+<div id="intro" ng-show="!inProgress4">
+  <button id="startQuiz" ng-click="start4()">Medienrecht</button>
+</div>
+
+<!--Mediengestaltung-->
+<div class="quiz-area" ng-show="inProgress5">
+  <div ng-show="!quizOver5">
+    <h2 class="question">{{question5}}</h2>
+    <ul class="options">
+      <li ng-repeat="option5 in options5">
+        <label>
+          <input type="radio" name="answer5" value="{{option5}}" />
+          {{option5}}
+        </label>
+      </li>
+    </ul>
+    <button ng-click="checkAnswer5()" ng-show="answerMode5">Submit</button>
+
+    <div ng-show="!answerMode5">
+      <button ng-click="nextQuestion5()" class="next-question">Weiter</button>
+      <span ng-show="correctAns5">Richtig!!!</span>
+      <span ng-show="!correctAns5"
+        >Du hast die Frage nicht richtig geantwortet. Die richtige Antwort ist
+        "{{options5[answer5]}}"</span
+      >
+    </div>
+  </div>
+
+  <div ng-show="quizOver5">
+    <h2>Quiz is over</h2>
+    <button ng-click="reset5()">Play again</button>
+  </div>
+</div>
+
+<div id="intro" ng-show="!inProgress5">
+  <button id="startQuiz" ng-click="start5()">Mediengestaltung</button>
+</div>
+
+<!--Englisch-->
+<div class="quiz-area" ng-show="inProgress6">
+  <div ng-show="!quizOver6">
+    <h2 class="question">{{question6}}</h2>
+    <ul class="options">
+      <li ng-repeat="option6 in options6">
+        <label>
+          <input type="radio" name="answer6" value="{{option6}}" />
+          {{option6}}
+        </label>
+      </li>
+    </ul>
+    <button ng-click="checkAnswer6()" ng-show="answerMode6">Submit</button>
+
+    <div ng-show="!answerMode6">
+      <button ng-click="nextQuestion6()" class="next-question">Weiter</button>
+      <span ng-show="correctAns6">Richtig!!!</span>
+      <span ng-show="!correctAns6"
+        >Du hast die Frage nicht richtig geantwortet. Die richtige Antwort ist
+        "{{options6[answer6]}}"</span
+      >
+    </div>
+  </div>
+
+  <div ng-show="quizOver6">
+    <h2>Quiz is over</h2>
+    <button ng-click="reset6()">Play again</button>
+  </div>
+</div>
+
+<div id="intro" ng-show="!inProgress6">
+  <button id="startQuiz" ng-click="start6()">Englisch</button>
+</div>
