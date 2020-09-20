@@ -23,6 +23,30 @@ button {
   cursor: pointer;
 }
 
+#startQuiz {
+  background-color: rgb(0, 158, 227);
+}
+
+#startQuiz2 {
+  background-color: rgb(0, 70, 153);
+}
+
+#startQuiz3 {
+  background-color: rgb(0, 150, 78);
+}
+
+#startQuiz4 {
+  background-color: rgb(229, 48, 9);
+}
+#startQuiz5 {
+  background-color: rgb(255, 237, 0);
+}
+#startQuiz6 {
+  background-color: rgb(229, 0, 125);
+}
+.next-question {
+  background-color: goldenrod;
+}
 .container {
   width: 480px;
   margin: 0 auto;
